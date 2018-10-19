@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "views": 0,
+    "content": "hhhhh",
+    "title": "多喝热水",
+    "ct": 1539852606,
+    "read": true,
+    "sender_id": 6,
+    "receiver_id": 5
+  },
+  {
+    "id": 2,
+    "views": 0,
+    "content": "666666",
+    "title": "2233",
+    "ct": 1539852684,
+    "read": true,
+    "sender_id": 5,
+    "receiver_id": 6
+  }
+]

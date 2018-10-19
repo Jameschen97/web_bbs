@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>profile</title>
+</head>
+<body>
+
+
+<h1>用户资料页面</h1>
+<div>
+    {{ user.id }}
+</div>
+<div>
+    {{ user.name }}
+</div>
+<div>
+    {{ user.password }}
+</div>
+<div style="width: 200px">
+    <img width=100% src="{{ '/uploads/' + user.user_img + '?v=3&amp;s=120' }}">
+</div>
+
+
+<h2>Upload new File</h2>
+<form method=post action="{{ url_for(".add_img") }}" enctype=multipart/form-data>
+    <p><input type=file name=file>
+        <input type=submit value=Upload>
+</form>
+
+</body>
+</html>
